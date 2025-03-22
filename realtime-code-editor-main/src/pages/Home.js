@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuidV4 } from 'uuid';
 import toast from 'react-hot-toast';
-import { useNavigate } from 'react-router-dom';
+import {useNavigate} from 'react-router-dom'
 
 const Home = () => {
     const navigate = useNavigate();
@@ -77,8 +77,9 @@ const Home = () => {
             </div>
             <footer>
                 <h4>
+                    <h1>HOLLLOOOO</h1>
                     Built with 💛 &nbsp; by &nbsp;
-                    <a href="https://github.com/codersgyan">Coder's Gyan</a>
+                    <a href="https://github.com/sandeepraj100sp/Real-time-code-editor">sandeep</a>
                 </h4>
             </footer>
         </div>
